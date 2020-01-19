@@ -5,7 +5,7 @@
 - Custom settings for things like `.bashrc` and extensions.
 - Tutorials and/or procedures/steps to install or make certain things.
 - Etc
-##### stuff coming soon lmao.
+
 
 
 
