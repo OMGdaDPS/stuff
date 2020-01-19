@@ -11,7 +11,7 @@
 
 Things added | Description
 ------------ | -------------
-(1) Fancy Bash Prompt| Bash prompt from [Parrot OS](https://parrotlinux.org/)
+Fancy Bash Prompt| Bash prompt from [Parrot OS](https://parrotlinux.org/)
 Coming soon! | Coming soon!
 
 
