@@ -12,7 +12,7 @@
 Things added | Description
 ------------ | -------------
 Fancy Bash Prompt| Bash prompt from [Parrot OS](https://parrotlinux.org/)
-Coming soon! | Coming soon!
-
+WoeUSB install | How to install on Debian/Ubuntu based systems
+Coming soon!| Coming soon!
 
 Need to figure out how to embed images into the README...
