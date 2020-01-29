@@ -1,0 +1,56 @@
+ **__How to install WoeUSB on a Debian/Ubuntu based system__**:
+ 
+ »#First update and upgrade your system, and install a few needed packages:
+ 
+ $ sudo apt update && sudo apt upgrade -y && sudo apt install devscripts equivs gdebi-core git
+ 
+ » #Next, create a directory that we can build it in, and then change into that directory:
+ 
+ $ mkdir ~/build && cd ~/build
+ 
+ » #Now lets clone the git repo that we need, with the source for WoeUSB and change into that directory:
+ 
+ $ git clone https://github.com/OMGdaDPS/WoeUSB.git && cd WoeUSB
+ 
+ » #Run the provided script to set up the development environment:
+ 
+ $ bash setup-development-environment.bash
+ 
+ » #Now We Install WoeUSB's Dependencies:
+ $ mk-build-deps
+ 
+ » #Use `ls` to determine the version number (replace the <version> tag below with what is displayed):
+ 
+ $ ls -ah
+ 
+ » #Then finally install:
+ 
+ $ sudo dpkg -i woeusb-build-deps_<version>_all.deb 
+ #(hit tab after "deps" for autocomplete)
+ 
+ »#Now we build the actual WoeUSB package:
+ 
+ $ dpkg-buildpackage -uc -b
+ 
+ #The .deb package for that we just built will be in the top level of the "build" directory.
+ #Change into that directory and install it with `dpkg -i woeusb_<version>_<architecture>.deb`
+ 
+ -----
+ 
+ #Now that you have it installed, you have two choices: 
+ #-Terminal 
+ #-GUI
+ 
+ #The terminal way is the easiest, fastest and safest way to do it.
+ #Example:
+ 
+ $ woeusb --device Windows7_x64.iso /dev/sdX
+ 
+ #Another example:
+ 
+ $ woeusb --device <source media path> <device>
+ 
+ #If you are trying to install __Windows 10__ to the device, you need to specify the target filesystem with: '--tgt-fs NTFS'
+ #Example:
+ $ woeusb --device <source media path> <device> --tgt-fs NTFS
+ #You will also need root, or sudo to flash to the disk.
