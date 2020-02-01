@@ -13,6 +13,6 @@ Things added | Description
 ------------ | -------------
 Fancy Bash Prompt| Bash prompt from [Parrot OS](https://parrotlinux.org/)
 WoeUSB install | How to install on Debian/Ubuntu based systems
-Coming soon!| Coming soon!
+BU USB Backup Tool| Amazingly simple way to back things up to USB!
 
 Need to figure out how to embed images into the README...
