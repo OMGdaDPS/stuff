@@ -2,4 +2,4 @@
 # To use it, you will probably need to make it executable, by running 
 # $ chmod +x /path/to/script/stopwatchscript
 
-# Run it with $ ./stopwatch 
+# Run it with $ ./stopwatchscript
