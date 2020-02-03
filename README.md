@@ -15,7 +15,7 @@ Fancy Bash Prompt| Bash prompt from [Parrot OS](https://parrotlinux.org/)
 WoeUSB install | How to install on Debian/Ubuntu based systems
 BU USB Backup Tool| Amazingly simple way to back things up to USB!
 StopWatch | Just a nice, simple stopwatch for the terminal!
-
+cpupower-howto | A concise how-to install cpupower on Debian/Ubuntu systems!
 ## Todo:
 
 - [ ] Need to figure out how to embed images into the README...
