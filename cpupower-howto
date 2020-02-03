@@ -1,0 +1,55 @@
+# How to install cpupower & control your CPU governor on Debian/Ubuntu.
+------------------------------------------------------
+
+# First, install the linux-tools-common package
+
+$ sudo apt install linux-tools-common
+------------------------------------------------------
+
+# Next, type in the command `cpupower` into the terminal, and hit enter
+
+$ cpupower
+
+# It will tell you that you to install some more packages, like linux-tools-x.x.x.x, which will be
+# dependant on what version of the kernel you have installed.
+# You will only need the very first one in the list. Install it with:
+$ sudo apt install <package-name-goes-here>
+-------------------------------------------------------
+
+# Now, to control the governor you need to specify which one you want to use. Let's find out what governors your CPU
+# offers with: 
+$ sudo cpupower frequency-info
+
+# It will give an output, and in that output will be something like this:
+$   available cpufreq governors: performance powersave
+--------------------------------------------------------
+
+# To set one of these governors, use this command:
+$ sudo cpupower frequency-set -g performance
+--------------------------------------------------------
+
+# Thats it! Now, you can create a simple bash script to make it a lot easier to set the gov. So, something like this:
+
+__________________________________________________
+#!/bin/bash
+
+# simple script to set cpu gov to performance mode
+
+sudo cpupower frequency-set -g performance
+__________________________________________________
+
+# Then save that as something simple (since the name will be the command that you use in the terminal) like
+# "cpuperf". 
+
+# Then run this command to makwe it executable:
+$ sudo chmod +x /path/to/file/cpuperf
+---------------------------------------------------------
+
+# Then move to the file to a something that is in your PATH, like /usr/local/bin with:
+$ sudo mv /path/to/file/cpuperf /usr/local/bin
+----------------------------------------------------------
+
+# You should then be able to just type in 
+$ cpuperf
+# and it will ask for your sudo password, and then set the gov! Have fun!
+----------------------------------------------------------
