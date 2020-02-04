@@ -1,5 +1,5 @@
 # Just a simple script to display a "stop-watch" in the terminal. Very useful.
 # To use it, you will probably need to make it executable, by running 
-# $ chmod +x /path/to/script/stopwatchscript
+$ chmod +x /path/to/script/stopwatchscript
 
 # Run it with $ ./stopwatchscript
