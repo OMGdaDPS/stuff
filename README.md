@@ -1,4 +1,4 @@
-## A collection of things that I am working on or have finished, for everyone. Please use what you want!
+## A collection of things that I am working on or have finished, for everyone. Please use what you want! Also contains things that aren't mine, but that I find useful.
 
 #### Things that you will find here:
 - Things that I believe are neccessary after an install, for my systems (probably written in a script of some sort)
