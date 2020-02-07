@@ -12,7 +12,7 @@
 Things added | Description
 ------------ | -------------
 Fancy Bash Prompt| Bash prompt from [Parrot OS](https://parrotlinux.org/)
-WoeUSB install | How to install on Debian/Ubuntu based systems
+WoeUSB install | How to install on [Debian](https://www.debian.org/)/[Ubuntu](https://ubuntu.com/) based systems
 BU USB Backup Tool| Amazingly simple way to back things up to USB!
 StopWatch | Just a nice, simple stopwatch for the terminal!
 cpupower-howto | A concise how-to install cpupower on Debian/Ubuntu systems!
