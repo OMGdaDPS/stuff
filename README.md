@@ -25,7 +25,7 @@ Starry Night | A simple, yet pretty text that you can use!
 
 ## Todo:
 
-- [ ] Need to figure out how to embed images into the README...
+- [x] Need to figure out how to embed images into the README...
 - [ ] Need to create and upload a script (bash) that will run all of the "after install" items.
 - [ ] Learn more about markdown and HTML, to make this readme better.
 
