@@ -19,6 +19,10 @@ cpupower-howto | A concise how-to install cpupower on Debian/Ubuntu systems!
 Starry Night | A simple, yet pretty text that you can use!
 
 
+## Starry Night in action!
+
+![starrynight.png](https://github.com/OMGdaDPS/stuff/blob/master/starrynight.png)
+
 ## Todo:
 
 - [ ] Need to figure out how to embed images into the README...
