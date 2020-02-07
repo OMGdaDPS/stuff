@@ -12,7 +12,7 @@
 Things added | Description
 ------------ | -------------
 Fancy Bash Prompt| Bash prompt from [Parrot OS](https://parrotlinux.org/)
-WoeUSB install | How to install on [Debian](https://www.debian.org/)/[Ubuntu](https://ubuntu.com/) based systems
+WoeUSB install | How to install on <a href="https://www.debian.org/" target="_blank">Debian</a>/<a href="https://ubuntu.com" target="_blank">Ubuntu</a> based systems
 BU USB Backup Tool| Amazingly simple way to back things up to USB!
 StopWatch | Just a nice, simple stopwatch for the terminal!
 cpupower-howto | A concise how-to install cpupower on Debian/Ubuntu systems!
@@ -33,3 +33,4 @@ Starry Night | A simple, yet pretty text that you can use!
 
 - BU Backup Tool is provided by EZEELINUX. Thanks!
 - WoeUSB is a fork of Congelli501's WinUSB software, for which I have made a simplified and easy to read set of instructions for, and also will host the source for it until GitHub ceases to exist (hopefully never). Thanks!
+
